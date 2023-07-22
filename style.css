@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    padding: 0px;
+}
+
+    .fa-square-github {
+      font-size: 40px;
+    }
+  
+ td{
+    border: solid 2px black;
+    text-align: center;
+    
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .mainHeader {
+    gap: 300px;
+    display: flex;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+ .highlight{
+    font-weight: bold;    
+ }
+ span:hover {
+     text-decoration: underline;
+}
+
+   .contact-info p {
+    margin: 0;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .section-content {
+    margin-bottom: 30px;
+  }
+
+  .experience {
+    margin-bottom: 30px;
+  }
+
+  .experience h4 {
+    margin: 0;
+  }
+
+  .experience p {
+    margin: 0;
+  }
+
+  .education, .experience, .internship, .skills {
+    border-bottom: 1px solid #ee7070;
+    padding-bottom: 20px;
+  }
+
+  .education:last-child, .experience:last-child, .internship:last-child, .skills:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
